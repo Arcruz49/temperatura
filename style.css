@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(40, 43, 56);
+    align-items: center;
+    justify-content: center;
+}
+
+.divPesquisa{
+    margin: 0 auto;
+    width: 500px;
+    height: 40px;
+    display: block;
+    background-color: rgb(82, 86, 107);
+    border-radius: 15px;
+    align-items: center;
+    
+}
+
+#inputBusca{
+    text-align: center;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+}
+
+#inputBusca:focus {
+    outline: none; 
+}
+
+#inputBusca::placeholder {
+    color: white; 
+}
+
+#inputBusca:focus::placeholder {
+    color: transparent; 
+}
+
+.gg-search{
+    background: #fff;
+}
+
+.menu {
+    margin-top: 15px;
+    min-width:  800px;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: rgb(82, 86, 107);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.divGrupo {
+    margin: 0 auto;
+    width: 800px;
+    height: 200px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.divIcons {
+    width: 180px;
+    height: 180px;
+    background-color: #292838;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.divIcons:hover{
+    transform: scale(1.1);
+}
