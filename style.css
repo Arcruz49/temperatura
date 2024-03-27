@@ -13,7 +13,7 @@ body{
     background-color: rgb(82, 86, 107);
     border-radius: 15px;
     align-items: center;
-    
+    display: flex;
 }
 
 #inputBusca{
@@ -25,6 +25,7 @@ body{
     height: 100%;
     color: #fff;
     font-size: 20px;
+    margin-left: 45px;
 }
 
 #inputBusca:focus {
@@ -32,16 +33,22 @@ body{
 }
 
 #inputBusca::placeholder {
-    color: white; 
+    color: white;
 }
 
 #inputBusca:focus::placeholder {
     color: transparent; 
 }
 
-.gg-search{
-    background: #fff;
+button{
+    cursor: pointer;
 }
+
+.divPesquisa button{
+    margin-right: 10px;
+    margin-top: 1px;
+}
+  
 
 .menu {
     margin-top: 15px;
@@ -80,7 +87,8 @@ body{
     align-items: center;
     transition: all 0.3s ease;
     justify-content: center;
-  }
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  }
   
   .divIcons:hover {
     transform: scale(1.1);
