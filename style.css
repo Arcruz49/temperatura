@@ -2,6 +2,7 @@ body{
     background-color: rgb(40, 43, 56);
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .divPesquisa{
@@ -57,22 +58,63 @@ body{
 .divGrupo {
     margin: 0 auto;
     width: 800px;
-    height: 200px;
     align-items: center;
     margin-top: 30px;
-}
-
-.divIcons {
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .divIcons {
     width: 180px;
     height: 180px;
     background-color: #292838;
     margin: 20px;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     transition: all 0.3s ease;
+    justify-content: center;
+  }
+  
+  .divIcons:hover {
+    transform: scale(1.1);
+  }
+  
+
+.fa-temperature-three-quarters{
+    font-size: 4em;
 }
 
-.divIcons:hover{
-    transform: scale(1.1);
+.fa-ruler-vertical{
+    font-size: 4em;
 }
+
+.fa-weight-hanging{
+    font-size: 4em;
+}
+
+.fa-gauge{
+    font-size: 4em;;
+}
+
+.fa-clock{
+    font-size: 4em;
+}
+
+.fa-money-bills{
+    font-size: 4em;
+}
+
+
+.titulo {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  
